@@ -6,6 +6,6 @@ Piece::Piece() :
     y(0),
     couleur(0)
 {
-    QPixmap * image = new QPixmap(":/blanche");
+    QPixmap * image = new QPixmap(":/croix");
     this->setPixmap(* image);
 }
