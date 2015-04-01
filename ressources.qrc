@@ -1,0 +1,7 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="rond">pieceR.png</file>
+        <file alias="croix">pieceC.png</file>
+        <file alias="blanche">pieceB.png</file>
+    </qresource>
+</RCC>
