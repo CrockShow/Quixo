@@ -8,4 +8,11 @@ Piece::Piece() :
 {
     QPixmap * image = new QPixmap(":/blanche");
     this->setPixmap(* image);
+    this->setFlags(ItemIsSelectable);
+}
+
+void Piece :: mousePressEvent(QGraphicsSceneMouseEvent * event)
+{
+
+
 }

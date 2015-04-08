@@ -10,6 +10,10 @@ public:
     int x;
     int y;
     int couleur;
+protected :
+
+void mousePressEvent(QGraphicsSceneMouseEvent * event);
+
 };
 
 #endif // PIECE_H
